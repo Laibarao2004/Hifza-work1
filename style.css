@@ -1,0 +1,79 @@
+body {
+    background-image: url(bg2.0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: darkgreen;
+}
+
+/* Navigation */
+a {
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Paragraphs */
+p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Images */
+img {
+    
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Table */
+table {
+    background-color: white;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: lightgray;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Form */
+input, textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+/* Buttons */
+input[type="submit"], input[type="reset"] {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: green;
+}
